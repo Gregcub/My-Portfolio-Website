@@ -1,0 +1,15 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+body{
+
+}
+
+
+.intro{
+    background-image: url("/images/starry-sky.jpg");
+    background-size: cover;
+    width: 100%;
+}
