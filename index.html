@@ -14,21 +14,26 @@
 <body>
 
 
-<header>
-    <div>
-        <h1>{Greg Cubitt}</h1>
-        <button class="nav_toggle">
-            <span class="burger"></span>
-        </button>
-        <nav class="nav"></nav>
-    </div>
 
-</header>
 
 <!-- Introduction -->
 <section class="intro" id="home">
+
+    <header class="header">
+        <div>
+            <h1>{Greg Cubitt}</h1>
+            <button class="nav_toggle">
+                <span class="burger"></span>
+            </button>
+            <nav class="nav"></nav>
+        </div>
+
+    </header>
+
+
     <h1 class="section__title__intro"> Hello, I am Greg Cubitt</h1>
-    <p>Computer Scientist</p>
+    <p class="section__profession__into">Computer Scientist</p>
+    <img id="forest_image" class="forest_image" src="Images/silhouette-forest-12.png" alt="">
 </section>
 
 <!-- About Me -->
@@ -54,8 +59,8 @@
         </div>
 
         <!-- project 2 -->
-        <div class="project" id="project2" alt="">
-            <img src="Images/covid.jpg">
+        <div class="project" id="project2" >
+            <img src="Images/covid.jpg" alt="">
             <h3>Covid Awareness</h3>
             <p>Description</p>
         </div>
@@ -95,6 +100,12 @@
 <footer>
     <h4>Contact me!</h4>
 </footer>
+
+<script>
+    let forest = document.getElementById('forest_image');
+
+
+</script>
 
 </body>
 </html>

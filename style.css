@@ -3,13 +3,62 @@
 *::after{
     box-sizing: border-box;
 }
-body{
 
+
+body{
+    margin: 0;
+}
+h1,h2,h3{
+    margin: 0;
+}
+
+img{
+    display: block;
+    max-width: 100%;
 }
 
 
 .intro{
-    background-image: url("/images/starry-sky.jpg");
+    background-image: url("/images/starry_sky.jpg");
+    background-attachment: fixed;
     background-size: cover;
+    background-position: 100% 100%;
     width: 100%;
+    height: 100vh;
+    text-align: center;
+
+}
+
+.section__title__intro{
+    grid-area: title;
+}
+
+.section__profession__into{
+    grid-area: profession;
+}
+
+.intro .forest_image{
+    grid-area: image;
+    /*display: block;*/
+    /*width: 100%;*/
+    /*height: auto;*/
+
+}
+
+
+.about-me{
+
+}
+
+.my-work{
+
+}
+
+.my-work img{
+    width: 50%;
+    height: 50%;
+}
+
+.my-skills{
+
 }
